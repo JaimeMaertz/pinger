@@ -26,7 +26,7 @@ left out this machine: 172.22.0.50
 Download from the [Releases](https://github.com/JaimeMaertz/pinger/releases) page:
 `pinger-<version>-windows-amd64.zip` or `pinger-<version>-linux-amd64.tar.gz`. Each holds the
 executable and `oui.txt`. Put the folder on your PATH and keep `oui.txt` beside the executable:
-pinger has the list built in, but [netdiagram](https://github.com/JaimeMaertz/netdiagram) and
+pinger has the list built in, but [netdiagram](https://github.com/JaimeMaertz/net-diagram) and
 [ip-table-database-editor](https://github.com/JaimeMaertz/ip-table-database-editor) read that
 file from beside pinger.
 
@@ -147,7 +147,7 @@ cue to do this.
 ## Related tools
 
 - [ip-table-database-editor](https://github.com/JaimeMaertz/ip-table-database-editor): fills `devices.json` from IP-table spreadsheets and sweeps
-- [netdiagram](https://github.com/JaimeMaertz/netdiagram): uses pinger's sweep to find switches, then draws how devices connect
+- [netdiagram](https://github.com/JaimeMaertz/net-diagram): uses pinger's sweep to find switches, then draws how devices connect
 - [ip-switcher](https://github.com/JaimeMaertz/ip-switcher): a tray app for switching your adapter between DHCP and static presets
 
 ## License
