@@ -1,0 +1,22 @@
+# Built binaries (attached to GitHub Releases instead)
+/pinger
+*.exe
+dist/
+
+# Your own device database; devices.example.json shows the format
+devices.json
+
+# Editor and OS clutter
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Backups the database editor writes beside the database, and other real data
+devices.json*
+!devices.example.json
+*.bak
+sweep*.json
+*.xlsx
+*.csv

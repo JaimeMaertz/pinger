@@ -1,0 +1,5 @@
+[
+  { "mac": "00:10:7F:AA:BB:CC", "name": "Rack Processor", "model": "CP4N", "jobsite": "Example Job" },
+  { "mac": "00:05:A6:01:02:03", "name": "Lobby Touch Panel", "model": "TLP Pro 725M", "jobsite": "Example Job" },
+  { "mac": "D4-E0-8E-01-02-03", "name": "Conference Room Camera" }
+]
