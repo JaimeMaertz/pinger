@@ -142,7 +142,7 @@ type jsonHost struct {
 	Jobsite      string  `json:"jobsite,omitempty"`
 }
 
-// writeJSON prints the sweep as one JSON object, for other tools (netdiagram) to read.
+// writeJSON prints the sweep as one JSON object, for other tools (net-diagram) to read.
 func writeJSON(results []pingResult, macs map[netip.Addr]string, devices map[string]device,
 	cleared bool, skipped []netip.Addr, targets int, elapsed time.Duration) {
 	out := struct {
